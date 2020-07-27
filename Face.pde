@@ -35,7 +35,6 @@ class Face implements Comparable<Face>{
   }  
   
   // transforms 1 point in one point perspective
-  // might not just be one point? lol 
   PVector onePointPersp(PVector point) {
   float dist = -viewer.z;
   
